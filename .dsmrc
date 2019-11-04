@@ -1,0 +1,6 @@
+{
+  "dsmHost": "salesforceorg.invisionapp.com",
+  "organization": "salesforce-org",
+  "outputDir": ".dsm",
+  "storyPath": "src/**/*.stories.{js,ts}"
+}

@@ -18,7 +18,9 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "chromatic"
+    "chromatic": "chromatic",
+    "dsm-storybook:publish": "dsm-storybook publish",
+    "dsm-storybook:preview": "dsm-storybook preview"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,10 +32,13 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@invisionapp/dsm-storybook": "^0.0.109",
     "@storybook/addon-actions": "^5.2.5",
     "@storybook/addon-links": "^5.2.5",
+    "@storybook/addon-options": "^5.2.5",
     "@storybook/addons": "^5.2.5",
     "@storybook/react": "^5.2.5",
+    "request": "^2.34",
     "storybook-chromatic": "^3.0.3"
   }
 }
