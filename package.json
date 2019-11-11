@@ -32,7 +32,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@invisionapp/dsm-storybook": "^0.0.110",
+    "@invisionapp/dsm-storybook": "^0.0.116",
     "@storybook/addon-actions": "^5.2.5",
     "@storybook/addon-links": "^5.2.5",
     "@storybook/addon-options": "^5.2.5",
